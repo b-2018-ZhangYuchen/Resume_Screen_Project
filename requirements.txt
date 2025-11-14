@@ -1,11 +1,19 @@
-streamlit
-pandas
-numpy
-joblib
-scikit-learn
-xgboost
-sentence-transformers
-matplotlib
-scipy
-nltk
-gensim
+streamlit==1.39.0
+
+# 核心数值 & 科学计算
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+
+# XGBoost
+xgboost==2.1.1
+
+# BERT 向量相关
+torch==2.2.0
+transformers==4.39.3
+sentence-transformers==2.6.1
+
+# 其他用到的库
+joblib==1.4.2
+matplotlib==3.9.2
+scipy==1.13.1
