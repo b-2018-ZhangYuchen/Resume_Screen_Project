@@ -6,6 +6,6 @@ xgboost
 joblib
 matplotlib
 scipy
-torch
-torchvision
-torchaudio
+
+torch==2.5.0
+sentence-transformers==3.0.1
